@@ -4,31 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/birthdayImage"
+        android:id="@+id/udacityJump"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@drawable/udacityjump" />
+        android:src="@drawable/udacityjump2" />
 
-<!--
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/udacityDefinition"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/red_x" />
+
     <TextView
-        android:id="@+id/birthday_message"
+        android:id="@+id/udacityWord"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:fontFamily="@font/annie_use_your_telescope"
+        android:layout_above="@id/udacityDefinition"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:paddingTop="28dp"
-        android:textAlignment="center"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="36sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:text="@string/birthday_message" />
--->
+        android:textSize="22sp"
+        android:text="@string/udacity_word" />
 
+    <TextView
+        android:id="@+id/udacityDefinition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/udacityInfo"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:text="@string/udacity_definition" />
+
+    <TextView
+        android:id="@+id/udacityInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:fontFamily="monospace"
+        android:text="@string/udacity_info"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
