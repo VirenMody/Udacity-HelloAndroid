@@ -39,9 +39,9 @@
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:fontFamily="serif-monospace"
-        android:textStyle="bold"
         android:textColor="@android:color/black"
         android:textSize="40sp"
+        android:textStyle="bold"
         android:text="@string/udacity_word" />
 
     <TextView
@@ -64,9 +64,9 @@
         android:paddingRight="16dp"
         android:paddingBottom="8dp"
         android:fontFamily="sans-serif"
-        android:textStyle="bold"
         android:textColor="@android:color/black"
         android:textSize="18sp"
+        android:textStyle="bold"
         android:text="@string/udacity_definition" />
 
     <TextView
@@ -79,9 +79,11 @@
         android:paddingRight="16dp"
         android:paddingBottom="16dp"
         android:fontFamily="monospace"
-        android:text="@string/udacity_info"
+        android:autoLink="all"
+        android:textColorLink="@color/colorVividBlue"
         android:textColor="@color/colorVividBlue"
         android:textSize="14sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:text="@string/udacity_info" />
 
 </RelativeLayout>
