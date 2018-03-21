@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
-    <string name="udacity_word">(a)u∙dac∙i∙ty  /yōōˈdasədē/</string>
-    <string name="udacity_definition">\t- The willingness to take a bold step jump.</string>
-    <string name="udacity_info">2465 Latham St\nMountain View, CA 94043\n650-555-5555</string>
+    <string name="udacity_etymology">You can\'t spell audacity without... </string>
+    <string name="udacity_word">U∙dac∙i∙ty</string>
+    <string name="udacity_pronunciation">/yōō  ˈdasədē/</string>
+    <string name="udacity_definition">The willingness to take bold risks.</string>
+    <string name="udacity_info">Udacity\n2465 Latham St\nMountain View, CA 94043\n650-555-5555</string>
 </resources>
